@@ -1,0 +1,182 @@
+{
+  "top_failing_queries": [
+    {
+      "query_id": 31100,
+      "query_text": "what is a heart scan",
+      "query_type": "description",
+      "failure_rate": 1.0,
+      "failures": 20,
+      "total": 20
+    },
+    {
+      "query_id": 31985,
+      "query_text": "what is Oscillatoria generic name?",
+      "query_type": "entity",
+      "failure_rate": 1.0,
+      "failures": 20,
+      "total": 20
+    },
+    {
+      "query_id": 93349,
+      "query_text": "does polygonum persicaria smell",
+      "query_type": "description",
+      "failure_rate": 1.0,
+      "failures": 20,
+      "total": 20
+    },
+    {
+      "query_id": 98704,
+      "query_text": "dyad definition synonym",
+      "query_type": "description",
+      "failure_rate": 0.85,
+      "failures": 17,
+      "total": 20
+    },
+    {
+      "query_id": 23177,
+      "query_text": "when were traffic lights first used",
+      "query_type": "numeric",
+      "failure_rate": 0.85,
+      "failures": 17,
+      "total": 20
+    },
+    {
+      "query_id": 23604,
+      "query_text": "good food for underactive thyroid",
+      "query_type": "entity",
+      "failure_rate": 0.75,
+      "failures": 15,
+      "total": 20
+    },
+    {
+      "query_id": 33140,
+      "query_text": "salary range of a nutritionist",
+      "query_type": "numeric",
+      "failure_rate": 0.4,
+      "failures": 8,
+      "total": 20
+    },
+    {
+      "query_id": 48383,
+      "query_text": "what was the first planet to be discovered",
+      "query_type": "entity",
+      "failure_rate": 0.4,
+      "failures": 8,
+      "total": 20
+    },
+    {
+      "query_id": 34300,
+      "query_text": "what is cost of sales",
+      "query_type": "description",
+      "failure_rate": 0.35,
+      "failures": 7,
+      "total": 20
+    },
+    {
+      "query_id": 86010,
+      "query_text": "is there pst on service fees",
+      "query_type": "description",
+      "failure_rate": 0.3,
+      "failures": 6,
+      "total": 20
+    },
+    {
+      "query_id": 51829,
+      "query_text": "what is lactobacillus rhamnosus",
+      "query_type": "description",
+      "failure_rate": 0.25,
+      "failures": 5,
+      "total": 20
+    },
+    {
+      "query_id": 23864,
+      "query_text": "what is bean straw",
+      "query_type": "description",
+      "failure_rate": 0.25,
+      "failures": 5,
+      "total": 20
+    },
+    {
+      "query_id": 22977,
+      "query_text": "did us postal rates change",
+      "query_type": "numeric",
+      "failure_rate": 0.2,
+      "failures": 4,
+      "total": 20
+    },
+    {
+      "query_id": 48983,
+      "query_text": "why is pure crystalline silicon or germanium an electrical insulator",
+      "query_type": "description",
+      "failure_rate": 0.2,
+      "failures": 4,
+      "total": 20
+    },
+    {
+      "query_id": 38001,
+      "query_text": "what are some criticisms of impressionism",
+      "query_type": "description",
+      "failure_rate": 0.2,
+      "failures": 4,
+      "total": 20
+    },
+    {
+      "query_id": 91264,
+      "query_text": "why did jason newsted leave metallica",
+      "query_type": "description",
+      "failure_rate": 0.2,
+      "failures": 4,
+      "total": 20
+    },
+    {
+      "query_id": 97192,
+      "query_text": "symmetric vs asymmetric encryption",
+      "query_type": "description",
+      "failure_rate": 0.2,
+      "failures": 4,
+      "total": 20
+    },
+    {
+      "query_id": 75057,
+      "query_text": "significance of the giza pyramids",
+      "query_type": "description",
+      "failure_rate": 0.2,
+      "failures": 4,
+      "total": 20
+    },
+    {
+      "query_id": 50223,
+      "query_text": "where is sahel",
+      "query_type": "location",
+      "failure_rate": 0.2,
+      "failures": 4,
+      "total": 20
+    },
+    {
+      "query_id": 55781,
+      "query_text": "how much does it cost to park at tampa airport",
+      "query_type": "numeric",
+      "failure_rate": 0.0,
+      "failures": 0,
+      "total": 20
+    }
+  ],
+  "failure_by_type": {
+    "description": {
+      "failures": 100,
+      "total": 240
+    },
+    "entity": {
+      "failures": 43,
+      "total": 60
+    },
+    "numeric": {
+      "failures": 29,
+      "total": 80
+    },
+    "location": {
+      "failures": 4,
+      "total": 20
+    }
+  }
+}
