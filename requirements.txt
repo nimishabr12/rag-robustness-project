@@ -1,0 +1,8 @@
+datasets
+transformers
+pandas
+numpy
+scikit-learn
+faiss-cpu
+openai
+python-dotenv
