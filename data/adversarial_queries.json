@@ -1,0 +1,1202 @@
+[
+  {
+    "query_id": 34300,
+    "query": "what is cost of sales in one sentence",
+    "query_type": "description",
+    "original_query": "what is cost of sales"
+  },
+  {
+    "query_id": 22977,
+    "query": "did us postal rates change in detail but quickly",
+    "query_type": "numeric",
+    "original_query": "did us postal rates change"
+  },
+  {
+    "query_id": 55781,
+    "query": "how much does it cost to park at tampa airport without technical jargon",
+    "query_type": "numeric",
+    "original_query": "how much does it cost to park at tampa airport"
+  },
+  {
+    "query_id": 51829,
+    "query": "what is lactobacillus rhamnosus without using the word 'lactobacillus'",
+    "query_type": "description",
+    "original_query": "what is lactobacillus rhamnosus"
+  },
+  {
+    "query_id": 48983,
+    "query": "why is pure crystalline silicon or germanium an electrical insulator from a beginner's perspective",
+    "query_type": "description",
+    "original_query": "why is pure crystalline silicon or germanium an electrical insulator"
+  },
+  {
+    "query_id": 38001,
+    "query": "what are some criticisms of impressionism without using the word 'impressionism'",
+    "query_type": "description",
+    "original_query": "what are some criticisms of impressionism"
+  },
+  {
+    "query_id": 33140,
+    "query": "salary range of a nutritionist using only common words",
+    "query_type": "numeric",
+    "original_query": "salary range of a nutritionist"
+  },
+  {
+    "query_id": 91264,
+    "query": "why did jason newsted leave metallica pros and cons only",
+    "query_type": "description",
+    "original_query": "why did jason newsted leave metallica"
+  },
+  {
+    "query_id": 31100,
+    "query": "what is a heart scan in detail but quickly",
+    "query_type": "description",
+    "original_query": "what is a heart scan"
+  },
+  {
+    "query_id": 97192,
+    "query": "symmetric vs asymmetric encryption (assume I know nothing about this)",
+    "query_type": "description",
+    "original_query": "symmetric vs asymmetric encryption"
+  },
+  {
+    "query_id": 75057,
+    "query": "significance of the giza pyramids pros and cons only",
+    "query_type": "description",
+    "original_query": "significance of the giza pyramids"
+  },
+  {
+    "query_id": 23864,
+    "query": "what is bean straw (explain like I'm five)",
+    "query_type": "description",
+    "original_query": "what is bean straw"
+  },
+  {
+    "query_id": 23604,
+    "query": "good food for underactive thyroid using only common words",
+    "query_type": "entity",
+    "original_query": "good food for underactive thyroid"
+  },
+  {
+    "query_id": 31985,
+    "query": "what is Oscillatoria generic name? pros and cons only",
+    "query_type": "entity",
+    "original_query": "what is Oscillatoria generic name?"
+  },
+  {
+    "query_id": 48383,
+    "query": "what was the first planet to be discovered in detail but quickly",
+    "query_type": "entity",
+    "original_query": "what was the first planet to be discovered"
+  },
+  {
+    "query_id": 50223,
+    "query": "where is sahel without using the word 'sahel'",
+    "query_type": "location",
+    "original_query": "where is sahel"
+  },
+  {
+    "query_id": 86010,
+    "query": "is there pst on service fees without using the word 'there'",
+    "query_type": "description",
+    "original_query": "is there pst on service fees"
+  },
+  {
+    "query_id": 98704,
+    "query": "dyad definition synonym in simple terms",
+    "query_type": "description",
+    "original_query": "dyad definition synonym"
+  },
+  {
+    "query_id": 23177,
+    "query": "when were traffic lights first used without using the word 'first'",
+    "query_type": "numeric",
+    "original_query": "when were traffic lights first used"
+  },
+  {
+    "query_id": 93349,
+    "query": "does polygonum persicaria smell without technical jargon",
+    "query_type": "description",
+    "original_query": "does polygonum persicaria smell"
+  },
+  {
+    "query_id": 45784,
+    "query": "where is acworth georgia in simple terms",
+    "query_type": "location",
+    "original_query": "where is acworth georgia"
+  },
+  {
+    "query_id": 91208,
+    "query": "where is passage island bc (assume I know nothing about this)",
+    "query_type": "location",
+    "original_query": "where is passage island bc"
+  },
+  {
+    "query_id": 74742,
+    "query": "characteristics of whooping cough without technical jargon",
+    "query_type": "description",
+    "original_query": "characteristics of whooping cough"
+  },
+  {
+    "query_id": 48619,
+    "query": "what is atmospheric variability in detail but quickly",
+    "query_type": "description",
+    "original_query": "what is atmospheric variability"
+  },
+  {
+    "query_id": 78637,
+    "query": "is krispy kreme a franchise but briefly and comprehensively",
+    "query_type": "description",
+    "original_query": "is krispy kreme a franchise"
+  },
+  {
+    "query_id": 97031,
+    "query": "what kind of music is used for mariachi using only common words",
+    "query_type": "entity",
+    "original_query": "what kind of music is used for mariachi"
+  },
+  {
+    "query_id": 56196,
+    "query": "ceo of youtube net worth in simple terms",
+    "query_type": "numeric",
+    "original_query": "ceo of youtube net worth"
+  },
+  {
+    "query_id": 20550,
+    "query": "where do kangaroos live pros and cons only",
+    "query_type": "location",
+    "original_query": "where do kangaroos live"
+  },
+  {
+    "query_id": 40641,
+    "query": "how long is a minute in pluto in detail but quickly",
+    "query_type": "numeric",
+    "original_query": "how long is a minute in pluto"
+  },
+  {
+    "query_id": 75148,
+    "query": "what is the name of the machine that clamps the iv tubing in simple terms",
+    "query_type": "entity",
+    "original_query": "what is the name of the machine that clamps the iv tubing"
+  },
+  {
+    "query_id": 64339,
+    "query": "how old does a child have to be to babysit (explain like I'm five)",
+    "query_type": "numeric",
+    "original_query": "how old does a child have to be to babysit"
+  },
+  {
+    "query_id": 56154,
+    "query": "adjunct professor salary nj pros and cons only",
+    "query_type": "numeric",
+    "original_query": "adjunct professor salary nj"
+  },
+  {
+    "query_id": 40093,
+    "query": "charles darwin tracked evolution as far back as pros and cons only",
+    "query_type": "description",
+    "original_query": "charles darwin tracked evolution as far back as"
+  },
+  {
+    "query_id": 47947,
+    "query": "what is immunoglobulin A but briefly and comprehensively",
+    "query_type": "description",
+    "original_query": "what is immunoglobulin A"
+  },
+  {
+    "query_id": 63860,
+    "query": "how many years does it take to become an architectural engineer from a beginner's perspective",
+    "query_type": "numeric",
+    "original_query": "how many years does it take to become an architectural engineer"
+  },
+  {
+    "query_id": 33102,
+    "query": "the outer cortex of the brain contains the cell bodies of cerebral neurons and is known as in detail but quickly",
+    "query_type": "description",
+    "original_query": "the outer cortex of the brain contains the cell bodies of cerebral neurons and is known as"
+  },
+  {
+    "query_id": 31861,
+    "query": "how many carbs in a gyro sandwich pros and cons only",
+    "query_type": "numeric",
+    "original_query": "how many carbs in a gyro sandwich"
+  },
+  {
+    "query_id": 69548,
+    "query": "what does msm do",
+    "query_type": "description",
+    "original_query": "what does msm do"
+  },
+  {
+    "query_id": 32381,
+    "query": "what is titration chemistry as a bullet list",
+    "query_type": "description",
+    "original_query": "what is titration chemistry"
+  },
+  {
+    "query_id": 66798,
+    "query": "what is julienned in simple terms",
+    "query_type": "description",
+    "original_query": "what is julienned"
+  },
+  {
+    "query_id": 64826,
+    "query": "how do you get an sd card out of a kindle fire from a beginner's perspective",
+    "query_type": "description",
+    "original_query": "how do you get an sd card out of a kindle fire"
+  },
+  {
+    "query_id": 98929,
+    "query": "what happens during hypothermia in the liver (explain like I'm five)",
+    "query_type": "description",
+    "original_query": "what happens during hypothermia in the liver"
+  },
+  {
+    "query_id": 54404,
+    "query": "what does naturally decaffeinated mean in simple terms",
+    "query_type": "description",
+    "original_query": "what does naturally decaffeinated mean"
+  },
+  {
+    "query_id": 25395,
+    "query": "how long does it take for loan approval in one sentence",
+    "query_type": "numeric",
+    "original_query": "how long does it take for loan approval"
+  },
+  {
+    "query_id": 79979,
+    "query": "parietal lobe location and primary function with examples",
+    "query_type": "description",
+    "original_query": "parietal lobe location and primary function"
+  },
+  {
+    "query_id": 90062,
+    "query": "akhila name meaning pros and cons only",
+    "query_type": "description",
+    "original_query": "akhila name meaning"
+  },
+  {
+    "query_id": 36072,
+    "query": "did the incas speak quechua (assume I know nothing about this)",
+    "query_type": "description",
+    "original_query": "did the incas speak quechua"
+  },
+  {
+    "query_id": 69366,
+    "query": "how much does it cost to make a bracelet pros and cons only",
+    "query_type": "numeric",
+    "original_query": "how much does it cost to make a bracelet"
+  },
+  {
+    "query_id": 30033,
+    "query": "when did the global compact start pros and cons only",
+    "query_type": "numeric",
+    "original_query": "when did the global compact start"
+  },
+  {
+    "query_id": 92140,
+    "query": "nj how to get assistance with a waitress salary without technical jargon",
+    "query_type": "numeric",
+    "original_query": "nj how to get assistance with a waitress salary"
+  },
+  {
+    "query_id": 58163,
+    "query": "what tissues are in a leaf in one sentence",
+    "query_type": "entity",
+    "original_query": "what tissues are in a leaf"
+  },
+  {
+    "query_id": 100871,
+    "query": "how to feel better with mono without technical jargon",
+    "query_type": "description",
+    "original_query": "how to feel better with mono"
+  },
+  {
+    "query_id": 67146,
+    "query": "how long does it take to boil a whole potato (explain like I'm five)",
+    "query_type": "numeric",
+    "original_query": "how long does it take to boil a whole potato"
+  },
+  {
+    "query_id": 95463,
+    "query": "what organisms does carbon monoxide affect in the body without technical jargon",
+    "query_type": "entity",
+    "original_query": "what organisms does carbon monoxide affect in the body"
+  },
+  {
+    "query_id": 44924,
+    "query": "what is technetium used for in detail but quickly",
+    "query_type": "description",
+    "original_query": "what is technetium used for"
+  },
+  {
+    "query_id": 28817,
+    "query": "what is the meaning of e.g without technical jargon",
+    "query_type": "description",
+    "original_query": "what is the meaning of e.g"
+  },
+  {
+    "query_id": 25706,
+    "query": "recommended operating temperature for transformer room in one sentence",
+    "query_type": "numeric",
+    "original_query": "recommended operating temperature for transformer room"
+  },
+  {
+    "query_id": 49598,
+    "query": "gravity payments salary (assume I know nothing about this)",
+    "query_type": "numeric",
+    "original_query": "gravity payments salary"
+  },
+  {
+    "query_id": 57665,
+    "query": "differences between endocrine and exocrine glands as a bullet list",
+    "query_type": "description",
+    "original_query": "differences between endocrine and exocrine glands"
+  },
+  {
+    "query_id": 30163,
+    "query": "What is the anatomical name for the part of the brain that is just above the spinal cord using only common words",
+    "query_type": "description",
+    "original_query": "What is the anatomical name for the part of the brain that is just above the spinal cord"
+  },
+  {
+    "query_id": 50240,
+    "query": "what does amyl nitrate do to you pros and cons only",
+    "query_type": "description",
+    "original_query": "what does amyl nitrate do to you"
+  },
+  {
+    "query_id": 32944,
+    "query": "oven temperature and how long to bake a sweet potato without technical jargon",
+    "query_type": "numeric",
+    "original_query": "oven temperature and how long to bake a sweet potato"
+  },
+  {
+    "query_id": 69574,
+    "query": "what is sacroiliitis symptoms in simple terms",
+    "query_type": "entity",
+    "original_query": "what is sacroiliitis symptoms"
+  },
+  {
+    "query_id": 56167,
+    "query": "arrogant bastard- what is height of can in detail but quickly",
+    "query_type": "numeric",
+    "original_query": "arrogant bastard- what is height of can"
+  },
+  {
+    "query_id": 79190,
+    "query": "klaus name meaning (explain like I'm five)",
+    "query_type": "description",
+    "original_query": "klaus name meaning"
+  },
+  {
+    "query_id": 67565,
+    "query": "is moonshine whiskey but briefly and comprehensively",
+    "query_type": "description",
+    "original_query": "is moonshine whiskey"
+  },
+  {
+    "query_id": 41034,
+    "query": "where is granite found in simple terms",
+    "query_type": "location",
+    "original_query": "where is granite found"
+  },
+  {
+    "query_id": 68268,
+    "query": "what is theanine without technical jargon",
+    "query_type": "description",
+    "original_query": "what is theanine"
+  },
+  {
+    "query_id": 66311,
+    "query": "what is tmall without technical jargon",
+    "query_type": "description",
+    "original_query": "what is tmall"
+  },
+  {
+    "query_id": 47184,
+    "query": "definition of allele frequency in simple terms",
+    "query_type": "description",
+    "original_query": "definition of allele frequency"
+  },
+  {
+    "query_id": 54726,
+    "query": "what does the name lucille mean without technical jargon",
+    "query_type": "description",
+    "original_query": "what does the name lucille mean"
+  },
+  {
+    "query_id": 29059,
+    "query": "why is Scots pine called Scots pine pros and cons only",
+    "query_type": "description",
+    "original_query": "why is Scots pine called Scots pine"
+  },
+  {
+    "query_id": 99640,
+    "query": "how do they keep embryo below par without technical jargon",
+    "query_type": "description",
+    "original_query": "how do they keep embryo below par"
+  },
+  {
+    "query_id": 42148,
+    "query": "what does agate stone look like in simple terms",
+    "query_type": "description",
+    "original_query": "what does agate stone look like"
+  },
+  {
+    "query_id": 89787,
+    "query": "amazon should I contact seller after a-z opened using only common words",
+    "query_type": "description",
+    "original_query": "amazon should I contact seller after a-z opened"
+  },
+  {
+    "query_id": 51818,
+    "query": "what are baby flamingos called (assume I know nothing about this)",
+    "query_type": "entity",
+    "original_query": "what are baby flamingos called"
+  },
+  {
+    "query_id": 41132,
+    "query": "what is the chemical formula for bauxite (explain like I'm five)",
+    "query_type": "entity",
+    "original_query": "what is the chemical formula for bauxite"
+  },
+  {
+    "query_id": 80351,
+    "query": "where can you find the quetzal bird in detail but quickly",
+    "query_type": "location",
+    "original_query": "where can you find the quetzal bird"
+  },
+  {
+    "query_id": 69486,
+    "query": "how does a typical commercial lease work pros and cons only",
+    "query_type": "description",
+    "original_query": "how does a typical commercial lease work"
+  },
+  {
+    "query_id": 55115,
+    "query": "how do you cite a crs report (assume I know nothing about this)",
+    "query_type": "description",
+    "original_query": "how do you cite a crs report"
+  },
+  {
+    "query_id": 92786,
+    "query": "what does hummocks mean in simple terms",
+    "query_type": "description",
+    "original_query": "what does hummocks mean"
+  },
+  {
+    "query_id": 48511,
+    "query": "food that has fiber (assume I know nothing about this)",
+    "query_type": "entity",
+    "original_query": "food that has fiber"
+  },
+  {
+    "query_id": 62244,
+    "query": "how many kilobytes are in a gigabytes in detail but quickly",
+    "query_type": "numeric",
+    "original_query": "how many kilobytes are in a gigabytes"
+  },
+  {
+    "query_id": 27031,
+    "query": "where does licorice come from (explain like I'm five)",
+    "query_type": "location",
+    "original_query": "where does licorice come from"
+  },
+  {
+    "query_id": 49748,
+    "query": "how much money does an anesthesiologist make but briefly and comprehensively",
+    "query_type": "numeric",
+    "original_query": "how much money does an anesthesiologist make"
+  },
+  {
+    "query_id": 23906,
+    "query": "What Religion believes in Chakras with examples",
+    "query_type": "entity",
+    "original_query": "What Religion believes in Chakras"
+  },
+  {
+    "query_id": 61085,
+    "query": "what does necrotic mean in simple terms",
+    "query_type": "description",
+    "original_query": "what does necrotic mean"
+  },
+  {
+    "query_id": 72336,
+    "query": "what is scantron in simple terms",
+    "query_type": "description",
+    "original_query": "what is scantron"
+  },
+  {
+    "query_id": 54826,
+    "query": "cost of prefab houses as a bullet list",
+    "query_type": "numeric",
+    "original_query": "cost of prefab houses"
+  },
+  {
+    "query_id": 28375,
+    "query": "what do different genes control pros and cons only",
+    "query_type": "description",
+    "original_query": "what do different genes control"
+  },
+  {
+    "query_id": 47379,
+    "query": "the purpose of the americans with disabilities act is to alleviate discrimination from a beginner's perspective",
+    "query_type": "description",
+    "original_query": "the purpose of the americans with disabilities act is to alleviate discrimination"
+  },
+  {
+    "query_id": 94130,
+    "query": "how much does it cost to get married in a courthouse in nz but briefly and comprehensively",
+    "query_type": "numeric",
+    "original_query": "how much does it cost to get married in a courthouse in nz"
+  },
+  {
+    "query_id": 60983,
+    "query": "how long ago did the ancestors of animals and fungi diverge (explain like I'm five)",
+    "query_type": "numeric",
+    "original_query": "how long ago did the ancestors of animals and fungi diverge"
+  },
+  {
+    "query_id": 47595,
+    "query": "what is negligee in simple terms",
+    "query_type": "description",
+    "original_query": "what is negligee"
+  },
+  {
+    "query_id": 85208,
+    "query": "cost of attendance uncw without using the word 'attendance'",
+    "query_type": "numeric",
+    "original_query": "cost of attendance uncw"
+  },
+  {
+    "query_id": 71610,
+    "query": "www.how much do dr phil make from the show in simple terms",
+    "query_type": "numeric",
+    "original_query": "www.how much do dr phil make from the show"
+  },
+  {
+    "query_id": 79904,
+    "query": "how much can be given tax free as a gift without technical jargon",
+    "query_type": "numeric",
+    "original_query": "how much can be given tax free as a gift"
+  },
+  {
+    "query_id": 38438,
+    "query": "foods that contain soluble fiber in detail but quickly",
+    "query_type": "entity",
+    "original_query": "foods that contain soluble fiber"
+  },
+  {
+    "query_id": 54451,
+    "query": "lawrenceville ga zip code in detail but quickly",
+    "query_type": "numeric",
+    "original_query": "lawrenceville ga zip code"
+  },
+  {
+    "query_id": 38013,
+    "query": "credit score required for fha loan as a bullet list",
+    "query_type": "numeric",
+    "original_query": "credit score required for fha loan"
+  },
+  {
+    "query_id": 52056,
+    "query": "where is three rivers michigan as a bullet list",
+    "query_type": "location",
+    "original_query": "where is three rivers michigan"
+  },
+  {
+    "query_id": 93365,
+    "query": "definition of adjustment disorder with depressed mood with examples",
+    "query_type": "description",
+    "original_query": "definition of adjustment disorder with depressed mood"
+  },
+  {
+    "query_id": 90424,
+    "query": "what causes polymyalgia in simple terms",
+    "query_type": "description",
+    "original_query": "what causes polymyalgia"
+  },
+  {
+    "query_id": 54171,
+    "query": "who developed the standard for analog television (assume I know nothing about this)",
+    "query_type": "person",
+    "original_query": "who developed the standard for analog television"
+  },
+  {
+    "query_id": 96417,
+    "query": "what is dbs finance (assume I know nothing about this)",
+    "query_type": "description",
+    "original_query": "what is dbs finance"
+  },
+  {
+    "query_id": 75912,
+    "query": "what type of root system does an ivy have in detail but quickly",
+    "query_type": "description",
+    "original_query": "what type of root system does an ivy have"
+  },
+  {
+    "query_id": 96277,
+    "query": "how long does it take for dvla to process online provisional licence application? in one sentence",
+    "query_type": "numeric",
+    "original_query": "how long does it take for dvla to process online provisional licence application?"
+  },
+  {
+    "query_id": 72104,
+    "query": "where is the right lymphatic duct located from a beginner's perspective",
+    "query_type": "location",
+    "original_query": "where is the right lymphatic duct located"
+  },
+  {
+    "query_id": 67193,
+    "query": "what type of vaccine is bcg but briefly and comprehensively",
+    "query_type": "entity",
+    "original_query": "what type of vaccine is bcg"
+  },
+  {
+    "query_id": 48472,
+    "query": "what chemicals can be made from salt without using the word 'chemicals'",
+    "query_type": "entity",
+    "original_query": "what chemicals can be made from salt"
+  },
+  {
+    "query_id": 37843,
+    "query": "foods that contains folate in detail but quickly",
+    "query_type": "entity",
+    "original_query": "foods that contains folate"
+  },
+  {
+    "query_id": 86558,
+    "query": "what causes trapezius muscle spasms in one sentence",
+    "query_type": "description",
+    "original_query": "what causes trapezius muscle spasms"
+  },
+  {
+    "query_id": 84457,
+    "query": "when does mountain men start pros and cons only",
+    "query_type": "numeric",
+    "original_query": "when does mountain men start"
+  },
+  {
+    "query_id": 31620,
+    "query": "what is misogynistic without using the word 'misogynistic'",
+    "query_type": "description",
+    "original_query": "what is misogynistic"
+  },
+  {
+    "query_id": 25875,
+    "query": "average cost of living in michigan without using the word 'living'",
+    "query_type": "numeric",
+    "original_query": "average cost of living in michigan"
+  },
+  {
+    "query_id": 34079,
+    "query": "the part of the pharynx above the soft palate is called from a beginner's perspective",
+    "query_type": "description",
+    "original_query": "the part of the pharynx above the soft palate is called"
+  },
+  {
+    "query_id": 39746,
+    "query": "how often to bottle feed newborn lambs as a bullet list",
+    "query_type": "numeric",
+    "original_query": "how often to bottle feed newborn lambs"
+  },
+  {
+    "query_id": 102043,
+    "query": "how long is an niceic valid for without technical jargon",
+    "query_type": "numeric",
+    "original_query": "how long is an niceic valid for"
+  },
+  {
+    "query_id": 40684,
+    "query": "average meal cost in amsterdam using only common words",
+    "query_type": "numeric",
+    "original_query": "average meal cost in amsterdam"
+  },
+  {
+    "query_id": 75088,
+    "query": "what kind of species interaction is mutualism or commensalism pros and cons only",
+    "query_type": "description",
+    "original_query": "what kind of species interaction is mutualism or commensalism"
+  },
+  {
+    "query_id": 97968,
+    "query": "what is dual diagnosis group therapy from a beginner's perspective",
+    "query_type": "description",
+    "original_query": "what is dual diagnosis group therapy"
+  },
+  {
+    "query_id": 28026,
+    "query": "what do carbon monoxide detectors detect in detail but quickly",
+    "query_type": "description",
+    "original_query": "what do carbon monoxide detectors detect"
+  },
+  {
+    "query_id": 70183,
+    "query": "what is the dab dance but briefly and comprehensively",
+    "query_type": "description",
+    "original_query": "what is the dab dance"
+  },
+  {
+    "query_id": 69770,
+    "query": "cerebral atrophy definition without using the word 'atrophy'",
+    "query_type": "description",
+    "original_query": "cerebral atrophy definition"
+  },
+  {
+    "query_id": 97899,
+    "query": "annual cost of illegal immigrants with examples",
+    "query_type": "numeric",
+    "original_query": "annual cost of illegal immigrants"
+  },
+  {
+    "query_id": 81112,
+    "query": "what is asbestolux made of (explain like I'm five)",
+    "query_type": "entity",
+    "original_query": "what is asbestolux made of"
+  },
+  {
+    "query_id": 89129,
+    "query": "what area does brunello wine come from as a bullet list",
+    "query_type": "entity",
+    "original_query": "what area does brunello wine come from"
+  },
+  {
+    "query_id": 52684,
+    "query": "what is meant by entrepreneurship pros and cons only",
+    "query_type": "description",
+    "original_query": "what is meant by entrepreneurship"
+  },
+  {
+    "query_id": 92296,
+    "query": "incubation period for food poisoning without using the word 'incubation'",
+    "query_type": "numeric",
+    "original_query": "incubation period for food poisoning"
+  },
+  {
+    "query_id": 21203,
+    "query": "what is the basic unit of electrical quantity with examples",
+    "query_type": "description",
+    "original_query": "what is the basic unit of electrical quantity"
+  },
+  {
+    "query_id": 34723,
+    "query": "how much a zumba instructor makes in detail but quickly",
+    "query_type": "numeric",
+    "original_query": "how much a zumba instructor makes"
+  },
+  {
+    "query_id": 90159,
+    "query": "characteristics of arteries and veins in simple terms",
+    "query_type": "description",
+    "original_query": "characteristics of arteries and veins"
+  },
+  {
+    "query_id": 54706,
+    "query": "meaning of emilia with examples",
+    "query_type": "description",
+    "original_query": "meaning of emilia"
+  },
+  {
+    "query_id": 64329,
+    "query": "how to embed a contact me form in in web page and that message i will get in my email as a bullet list",
+    "query_type": "description",
+    "original_query": "how to embed a contact me form in in web page and that message i will get in my email"
+  },
+  {
+    "query_id": 34329,
+    "query": "insiya name meaning from a beginner's perspective",
+    "query_type": "description",
+    "original_query": "insiya name meaning"
+  },
+  {
+    "query_id": 58205,
+    "query": "what vitamins do goats need with examples",
+    "query_type": "entity",
+    "original_query": "what vitamins do goats need"
+  },
+  {
+    "query_id": 76743,
+    "query": "how much do professional poker players make without using the word 'poker'",
+    "query_type": "numeric",
+    "original_query": "how much do professional poker players make"
+  },
+  {
+    "query_id": 40445,
+    "query": "asvab score for navy but briefly and comprehensively",
+    "query_type": "numeric",
+    "original_query": "asvab score for navy"
+  },
+  {
+    "query_id": 79231,
+    "query": "how much is a passport to canada with examples",
+    "query_type": "numeric",
+    "original_query": "how much is a passport to canada"
+  },
+  {
+    "query_id": 20124,
+    "query": "hr directors responsibilities but briefly and comprehensively",
+    "query_type": "description",
+    "original_query": "hr directors responsibilities"
+  },
+  {
+    "query_id": 54255,
+    "query": "natural relief of hemorrhoids pros and cons only",
+    "query_type": "entity",
+    "original_query": "natural relief of hemorrhoids"
+  },
+  {
+    "query_id": 85385,
+    "query": "what is iec code",
+    "query_type": "description",
+    "original_query": "what is iec code"
+  },
+  {
+    "query_id": 43135,
+    "query": "can a delegate create rules in simple terms",
+    "query_type": "description",
+    "original_query": "can a delegate create rules"
+  },
+  {
+    "query_id": 86315,
+    "query": "do chickpeas have carbohydrates (assume I know nothing about this)",
+    "query_type": "description",
+    "original_query": "do chickpeas have carbohydrates"
+  },
+  {
+    "query_id": 33653,
+    "query": "why children bite teeth while sleeping without using the word 'children'",
+    "query_type": "description",
+    "original_query": "why children bite teeth while sleeping"
+  },
+  {
+    "query_id": 101761,
+    "query": "doxycycline dosage for upper respiratory infection as a bullet list",
+    "query_type": "description",
+    "original_query": "doxycycline dosage for upper respiratory infection"
+  },
+  {
+    "query_id": 58853,
+    "query": "what is the benefit of pivot tables in simple terms",
+    "query_type": "description",
+    "original_query": "what is the benefit of pivot tables"
+  },
+  {
+    "query_id": 86313,
+    "query": "what is a saxony carpet as a bullet list",
+    "query_type": "description",
+    "original_query": "what is a saxony carpet"
+  },
+  {
+    "query_id": 99618,
+    "query": "is the neutron the subatomic particle that determines chemical properties of a atom pros and cons only",
+    "query_type": "description",
+    "original_query": "is the neutron the subatomic particle that determines chemical properties of a atom"
+  },
+  {
+    "query_id": 45793,
+    "query": "can albuterol be used for prophylaxis in one sentence",
+    "query_type": "description",
+    "original_query": "can albuterol be used for prophylaxis"
+  },
+  {
+    "query_id": 39745,
+    "query": "what are earthy colours with examples",
+    "query_type": "entity",
+    "original_query": "what are earthy colours"
+  },
+  {
+    "query_id": 68758,
+    "query": "fatca definition financial institution in one sentence",
+    "query_type": "description",
+    "original_query": "fatca definition financial institution"
+  },
+  {
+    "query_id": 40889,
+    "query": "what heart condition is arvc in one sentence",
+    "query_type": "entity",
+    "original_query": "what heart condition is arvc"
+  },
+  {
+    "query_id": 90478,
+    "query": "how to determine probability without using the word 'determine'",
+    "query_type": "description",
+    "original_query": "how to determine probability"
+  },
+  {
+    "query_id": 89291,
+    "query": "Circulatory System definition biology pros and cons only",
+    "query_type": "description",
+    "original_query": "Circulatory System definition biology"
+  },
+  {
+    "query_id": 19773,
+    "query": "what is a tilde accent but briefly and comprehensively",
+    "query_type": "description",
+    "original_query": "what is a tilde accent"
+  },
+  {
+    "query_id": 98301,
+    "query": "does phylum cnidaria have a gastrovascular cavity without technical jargon",
+    "query_type": "description",
+    "original_query": "does phylum cnidaria have a gastrovascular cavity"
+  },
+  {
+    "query_id": 62227,
+    "query": "what county is prineville oregon in without using the word 'county'",
+    "query_type": "location",
+    "original_query": "what county is prineville oregon in"
+  },
+  {
+    "query_id": 83812,
+    "query": "does ibuprofen work for wisdom tooth pain pros and cons only",
+    "query_type": "description",
+    "original_query": "does ibuprofen work for wisdom tooth pain"
+  },
+  {
+    "query_id": 22251,
+    "query": "what caused the heysel stadium disaster in detail but quickly",
+    "query_type": "description",
+    "original_query": "what caused the heysel stadium disaster"
+  },
+  {
+    "query_id": 34370,
+    "query": "do you have to dress up for dinner on disney cruise (assume I know nothing about this)",
+    "query_type": "description",
+    "original_query": "do you have to dress up for dinner on disney cruise"
+  },
+  {
+    "query_id": 67322,
+    "query": "what was happening in the economy when the balanced budget act was passed from a beginner's perspective",
+    "query_type": "description",
+    "original_query": "what was happening in the economy when the balanced budget act was passed"
+  },
+  {
+    "query_id": 60044,
+    "query": "name suzanne origin without technical jargon",
+    "query_type": "description",
+    "original_query": "name suzanne origin"
+  },
+  {
+    "query_id": 51114,
+    "query": "how much does it cost finish a basement in detail but quickly",
+    "query_type": "numeric",
+    "original_query": "how much does it cost finish a basement"
+  },
+  {
+    "query_id": 27292,
+    "query": "what are inflammatory enzymes using only common words",
+    "query_type": "description",
+    "original_query": "what are inflammatory enzymes"
+  },
+  {
+    "query_id": 51300,
+    "query": "where did the battle of vicksburg take place using only common words",
+    "query_type": "location",
+    "original_query": "where did the battle of vicksburg take place"
+  },
+  {
+    "query_id": 94153,
+    "query": "what is microflora in humans in detail but quickly",
+    "query_type": "description",
+    "original_query": "what is microflora in humans"
+  },
+  {
+    "query_id": 30027,
+    "query": "what kind of fly eats other bugs from a beginner's perspective",
+    "query_type": "entity",
+    "original_query": "what kind of fly eats other bugs"
+  },
+  {
+    "query_id": 30931,
+    "query": "how long can you keep lasagna leftovers from a beginner's perspective",
+    "query_type": "numeric",
+    "original_query": "how long can you keep lasagna leftovers"
+  },
+  {
+    "query_id": 83468,
+    "query": "why organs of the human body involuntarily but briefly and comprehensively",
+    "query_type": "description",
+    "original_query": "why organs of the human body involuntarily"
+  },
+  {
+    "query_id": 28772,
+    "query": "what does the name leah mean",
+    "query_type": "description",
+    "original_query": "what does the name leah mean"
+  },
+  {
+    "query_id": 89599,
+    "query": "can you bus from chefchaouen to Fes with examples",
+    "query_type": "description",
+    "original_query": "can you bus from chefchaouen to Fes"
+  },
+  {
+    "query_id": 36194,
+    "query": "The site where fertilization normally occurs is in the in simple terms",
+    "query_type": "description",
+    "original_query": "The site where fertilization normally occurs is in the"
+  },
+  {
+    "query_id": 36539,
+    "query": "what is spoken language in detail but quickly",
+    "query_type": "entity",
+    "original_query": "what is spoken language"
+  },
+  {
+    "query_id": 82061,
+    "query": "how long does it take to get a tattoo with examples",
+    "query_type": "numeric",
+    "original_query": "how long does it take to get a tattoo"
+  },
+  {
+    "query_id": 91845,
+    "query": "how much does it cost to get appraisal on a building but briefly and comprehensively",
+    "query_type": "numeric",
+    "original_query": "how much does it cost to get appraisal on a building"
+  },
+  {
+    "query_id": 41358,
+    "query": "jewish name meanings without technical jargon",
+    "query_type": "description",
+    "original_query": "jewish name meanings"
+  },
+  {
+    "query_id": 54474,
+    "query": "who was the edsel car named after (explain like I'm five)",
+    "query_type": "person",
+    "original_query": "who was the edsel car named after"
+  },
+  {
+    "query_id": 88939,
+    "query": "can a qualifying child on ssdi that works be claimed for eic using only common words",
+    "query_type": "description",
+    "original_query": "can a qualifying child on ssdi that works be claimed for eic"
+  },
+  {
+    "query_id": 99307,
+    "query": "what is the poisonous effect of benzene as a bullet list",
+    "query_type": "entity",
+    "original_query": "what is the poisonous effect of benzene"
+  },
+  {
+    "query_id": 75217,
+    "query": "what was the first gothic novel and when was it published but briefly and comprehensively",
+    "query_type": "entity",
+    "original_query": "what was the first gothic novel and when was it published"
+  },
+  {
+    "query_id": 47486,
+    "query": "can estradiol delay period from a beginner's perspective",
+    "query_type": "description",
+    "original_query": "can estradiol delay period"
+  },
+  {
+    "query_id": 90466,
+    "query": "where is your mcl located with examples",
+    "query_type": "location",
+    "original_query": "where is your mcl located"
+  },
+  {
+    "query_id": 46087,
+    "query": "good evening in japanese in simple terms",
+    "query_type": "description",
+    "original_query": "good evening in japanese"
+  },
+  {
+    "query_id": 60595,
+    "query": "where can i watch grown ups without using the word 'watch'",
+    "query_type": "location",
+    "original_query": "where can i watch grown ups"
+  },
+  {
+    "query_id": 72050,
+    "query": "what is medical necessity with examples",
+    "query_type": "description",
+    "original_query": "what is medical necessity"
+  },
+  {
+    "query_id": 68692,
+    "query": "what are argentina major language in one sentence",
+    "query_type": "entity",
+    "original_query": "what are argentina major language"
+  },
+  {
+    "query_id": 77180,
+    "query": "normal range of thyroid with examples",
+    "query_type": "numeric",
+    "original_query": "normal range of thyroid"
+  },
+  {
+    "query_id": 87614,
+    "query": "agata name pronunciation (assume I know nothing about this)",
+    "query_type": "description",
+    "original_query": "agata name pronunciation"
+  },
+  {
+    "query_id": 78936,
+    "query": "what is tufa formations as a bullet list",
+    "query_type": "description",
+    "original_query": "what is tufa formations"
+  },
+  {
+    "query_id": 35571,
+    "query": "meaning of vineeta name from a beginner's perspective",
+    "query_type": "description",
+    "original_query": "meaning of vineeta name"
+  },
+  {
+    "query_id": 52224,
+    "query": "new york subway commute times from a beginner's perspective",
+    "query_type": "numeric",
+    "original_query": "new york subway commute times"
+  },
+  {
+    "query_id": 49178,
+    "query": "where does good ozone come from from a beginner's perspective",
+    "query_type": "location",
+    "original_query": "where does good ozone come from"
+  },
+  {
+    "query_id": 28092,
+    "query": "what is classpath in java in detail but quickly",
+    "query_type": "description",
+    "original_query": "what is classpath in java"
+  },
+  {
+    "query_id": 64055,
+    "query": "how much does an oil leak repair cost without technical jargon",
+    "query_type": "numeric",
+    "original_query": "how much does an oil leak repair cost"
+  },
+  {
+    "query_id": 22456,
+    "query": "what does insulin do (explain like I'm five)",
+    "query_type": "description",
+    "original_query": "what does insulin do"
+  },
+  {
+    "query_id": 96905,
+    "query": "what causes magnesium deficiency in humans from a beginner's perspective",
+    "query_type": "description",
+    "original_query": "what causes magnesium deficiency in humans"
+  },
+  {
+    "query_id": 92387,
+    "query": "what is kurta pyjama in one sentence",
+    "query_type": "description",
+    "original_query": "what is kurta pyjama"
+  },
+  {
+    "query_id": 49888,
+    "query": "where was gareth bale born in simple terms",
+    "query_type": "location",
+    "original_query": "where was gareth bale born"
+  },
+  {
+    "query_id": 96923,
+    "query": "battery manufacturing plant cost (assume I know nothing about this)",
+    "query_type": "numeric",
+    "original_query": "battery manufacturing plant cost"
+  }
+]
