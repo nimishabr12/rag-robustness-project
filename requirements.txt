@@ -6,3 +6,5 @@ scikit-learn
 faiss-cpu
 openai
 python-dotenv
+rank-bm25
+tqdm
