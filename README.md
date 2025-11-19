@@ -4,15 +4,19 @@
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![OpenAI](https://img.shields.io/badge/OpenAI-API-green.svg)](https://openai.com/)
+[![Anthropic](https://img.shields.io/badge/Anthropic-Claude-orange.svg)](https://anthropic.com/)
+[![Google](https://img.shields.io/badge/Google-Gemini-blue.svg)](https://ai.google.dev/)
 
 ## 📋 Table of Contents
 
 - [Project Overview](#project-overview)
 - [Key Findings](#key-findings)
+- [Multi-Model Comparison](#multi-model-comparison)
 - [Methodology](#methodology)
 - [Setup Instructions](#setup-instructions)
 - [Repository Structure](#repository-structure)
 - [Results](#results)
+- [Interactive Demo](#interactive-demo)
 - [Future Work](#future-work)
 - [Citation](#citation)
 
@@ -103,6 +107,70 @@ Our pilot experiments evaluated **400 queries** across **5 noise types** and **4
 
 ---
 
+## 🤖 Multi-Model Comparison
+
+We extended our analysis to compare how different LLM providers perform on RAG robustness. Testing **OpenAI GPT-3.5-turbo** and **Anthropic Claude 3 Haiku** across all noise types reveals provider-specific strengths and weaknesses.
+
+### Model Comparison Results (Precision@5)
+
+| Noise Type | OpenAI GPT-3.5 | Anthropic Claude 3 | Winner |
+|------------|----------------|-------------------|--------|
+| **Clean** | 0.180 | 0.180 | TIE |
+| **Noisy (Typos)** | 0.160 | 0.175 | Claude (+9.4%) |
+| **Ambiguous** | 0.100 | 0.040 | GPT (+150%) |
+| **Context-Dependent** | 0.020 | 0.060 | **Claude (+200%)** |
+| **Adversarial** | 0.180 | 0.180 | TIE |
+
+### Key Insights
+
+**Claude 3 Haiku excels at context-dependent queries** - achieving 3x better performance (0.060 vs 0.020). This suggests Claude is more robust at handling pronoun-heavy and follow-up questions.
+
+**GPT-3.5 handles abbreviations better** - showing 2.5x better performance on ambiguous queries (0.100 vs 0.040). GPT appears stronger at expanding shortened/abbreviated text.
+
+**Both models fail on extreme context-dependence** - even Claude's "better" performance (0.060) is still catastrophically low. Conversation history tracking remains essential.
+
+### Running Model Comparisons
+
+```bash
+# Compare OpenAI, Gemini, and Anthropic models
+python experiments/compare_models.py
+
+# Results saved to: results/model_comparison_results.json
+```
+
+**API Keys Required:**
+- `OPENAI_API_KEY` - OpenAI GPT models
+- `ANTHROPIC_API_KEY` - Anthropic Claude models
+- `GOOGLE_API_KEY` - Google Gemini models (optional)
+
+### Using MultiModelGenerator
+
+The `MultiModelGenerator` class provides a unified interface for all LLM providers:
+
+```python
+from src.multi_model_generator import MultiModelGenerator
+
+# Test with different providers
+for provider in ["openai", "anthropic", "gemini"]:
+    generator = MultiModelGenerator(provider=provider)
+
+    result = generator.generate_answer(
+        query="what is cost of sales",
+        passages=retrieved_passages,
+        temperature=0.3,
+        max_tokens=300
+    )
+
+    print(f"{provider}: {result['answer']}")
+```
+
+**Supported Models:**
+- OpenAI: `gpt-3.5-turbo`, `gpt-4`, `gpt-4-turbo`
+- Anthropic: `claude-3-haiku-20240307`, `claude-3-sonnet-20240229`, `claude-3-opus-20240229`
+- Google: `gemini-pro`, `gemini-1.5-pro`
+
+---
+
 ## 🔬 Methodology
 
 ### Dataset
@@ -154,7 +222,9 @@ We implemented and compared 4 retrieval approaches:
 ### Prerequisites
 
 - Python 3.9+
-- OpenAI API key
+- OpenAI API key (required)
+- Anthropic API key (optional, for model comparisons)
+- Google API key (optional, for model comparisons)
 - 2GB+ RAM (for FAISS index)
 
 ### Installation
@@ -173,8 +243,10 @@ We implemented and compared 4 retrieval approaches:
 3. **Configure API keys:**
    ```bash
    cp .env.template .env
-   # Edit .env and add your OpenAI API key:
-   # OPENAI_API_KEY=sk-your-key-here
+   # Edit .env and add your API keys:
+   # OPENAI_API_KEY=sk-your-key-here          # Required
+   # ANTHROPIC_API_KEY=sk-ant-your-key-here   # Optional (for multi-model)
+   # GOOGLE_API_KEY=your-key-here             # Optional (for multi-model)
    ```
 
 ### Running Experiments
@@ -199,6 +271,13 @@ python experiments/visualize_results.py
 ```bash
 python src/failure_analysis.py
 # Generates results/failure_report.md
+```
+
+**Compare LLM Models (10 queries/type, ~10 minutes):**
+```bash
+python experiments/compare_models.py
+# Compares OpenAI, Anthropic, and Google models
+# Generates results/model_comparison_results.json
 ```
 
 ### Running in Jupyter Notebook
@@ -226,6 +305,7 @@ rag-robustness-project/
 ├── src/                            # Core implementation
 │   ├── rag_pipeline.py            # RAG system with 4 retrieval strategies
 │   ├── answer_generator.py       # Answer generation using OpenAI
+│   ├── multi_model_generator.py  # Multi-provider LLM interface (OpenAI/Anthropic/Gemini)
 │   ├── evaluation.py              # Evaluation metrics and analysis
 │   ├── noise_generators.py        # Query corruption functions
 │   ├── failure_analysis.py        # Detailed failure analysis
@@ -234,11 +314,13 @@ rag-robustness-project/
 ├── experiments/                    # Experiment runners
 │   ├── run_pilot_experiments.py   # Quick test (20 queries/type)
 │   ├── run_experiments.py         # Full experiments
+│   ├── compare_models.py          # Multi-model comparison (OpenAI/Anthropic/Gemini)
 │   ├── run_experiments.ipynb      # Jupyter notebook with visualizations
 │   └── visualize_results.py       # Generate plots and figures
 │
 ├── results/                        # Experimental results
 │   ├── pilot_results.json         # Pilot experiment data (706KB)
+│   ├── model_comparison_results.json  # Multi-model comparison results
 │   ├── failure_report.md          # Detailed failure analysis
 │   └── figures/                   # Visualizations
 │       ├── heatmap_precision.png  # Performance heatmap
@@ -291,6 +373,33 @@ rag-robustness-project/
 3. Context-dependent: "How does it work?" (P@5 = 0.000)
 
 For detailed analysis, see [results/failure_report.md](results/failure_report.md).
+
+---
+
+## 🎮 Interactive Demo
+
+We provide an interactive **Streamlit web app** to test RAG robustness in real-time:
+
+```bash
+streamlit run demo/app.py
+```
+
+**Features:**
+- Enter custom queries or use examples
+- Apply different noise transformations
+- Test all 4 retrieval strategies
+- View retrieved passages and generated answers
+- See evaluation metrics (when ground truth exists)
+
+**Try it yourself:**
+1. Enter a query like "what is cost of sales"
+2. Select a noise type (e.g., "Noisy (Typos)")
+3. Choose a retrieval strategy
+4. Click "Run Query" to see results
+
+The demo provides instant feedback on how different strategies handle various types of query noise. Perfect for experimenting and understanding RAG robustness!
+
+See [demo/README.md](demo/README.md) for detailed documentation.
 
 ---
 
@@ -380,7 +489,9 @@ This project is released under the MIT License. See [LICENSE](LICENSE) for detai
 ## 🙏 Acknowledgments
 
 - **MS MARCO Dataset**: Microsoft Research
-- **OpenAI API**: Embeddings and answer generation
+- **OpenAI API**: GPT models for embeddings and answer generation
+- **Anthropic API**: Claude models for multi-model comparison
+- **Google API**: Gemini models for multi-model comparison
 - **FAISS**: Facebook AI Similarity Search
 - **Rank-BM25**: BM25 implementation
 
