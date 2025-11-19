@@ -1,6 +1,6 @@
 # RAG Robustness Project
 
-**Comprehensive Evaluation of Retrieval-Augmented Generation (RAG) System Robustness**
+**Benchmark for testing RAG system robustness against noisy, ambiguous, and adversarial queries**
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![OpenAI](https://img.shields.io/badge/OpenAI-API-green.svg)](https://openai.com/)
