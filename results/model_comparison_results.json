@@ -1,0 +1,148 @@
+{
+  "config": {
+    "num_queries": 10,
+    "top_k": 5,
+    "models_tested": [
+      {
+        "provider": "openai",
+        "model": null
+      },
+      {
+        "provider": "anthropic",
+        "model": null
+      }
+    ],
+    "noise_types": [
+      "clean",
+      "noisy",
+      "ambiguous",
+      "context_dependent",
+      "adversarial"
+    ],
+    "retrieval_strategy": "hybrid_retrieval",
+    "timestamp": "2025-11-19 03:06:01"
+  },
+  "model_results": {
+    "openai": {
+      "status": "success",
+      "model": "openai/gpt-3.5-turbo",
+      "noise_type_results": {
+        "clean": {
+          "queries_tested": 10,
+          "queries_succeeded": 10,
+          "queries_failed": 0,
+          "total_precision_at_k": 1.7999999999999998,
+          "total_answer_quality": 4.999562684557965,
+          "errors": [],
+          "avg_precision_at_k": 0.18,
+          "avg_answer_quality": 0.4999562684557965
+        },
+        "noisy": {
+          "queries_tested": 10,
+          "queries_succeeded": 10,
+          "queries_failed": 0,
+          "total_precision_at_k": 1.5999999999999999,
+          "total_answer_quality": 5.115896601245713,
+          "errors": [],
+          "avg_precision_at_k": 0.15999999999999998,
+          "avg_answer_quality": 0.5115896601245713
+        },
+        "ambiguous": {
+          "queries_tested": 10,
+          "queries_succeeded": 10,
+          "queries_failed": 0,
+          "total_precision_at_k": 1.0,
+          "total_answer_quality": 3.317190312790835,
+          "errors": [],
+          "avg_precision_at_k": 0.1,
+          "avg_answer_quality": 0.33171903127908353
+        },
+        "context_dependent": {
+          "queries_tested": 10,
+          "queries_succeeded": 10,
+          "queries_failed": 0,
+          "total_precision_at_k": 0.2,
+          "total_answer_quality": 2.085015135300205,
+          "errors": [],
+          "avg_precision_at_k": 0.02,
+          "avg_answer_quality": 0.2085015135300205
+        },
+        "adversarial": {
+          "queries_tested": 10,
+          "queries_succeeded": 10,
+          "queries_failed": 0,
+          "total_precision_at_k": 1.7999999999999998,
+          "total_answer_quality": 5.057439220179001,
+          "errors": [],
+          "avg_precision_at_k": 0.18,
+          "avg_answer_quality": 0.5057439220179001
+        }
+      }
+    },
+    "anthropic": {
+      "status": "success",
+      "model": "anthropic/claude-3-haiku-20240307",
+      "noise_type_results": {
+        "clean": {
+          "queries_tested": 10,
+          "queries_succeeded": 10,
+          "queries_failed": 0,
+          "total_precision_at_k": 1.7999999999999998,
+          "total_answer_quality": 4.597378511802962,
+          "errors": [],
+          "avg_precision_at_k": 0.18,
+          "avg_answer_quality": 0.4597378511802962
+        },
+        "noisy": {
+          "queries_tested": 8,
+          "queries_succeeded": 8,
+          "queries_failed": 2,
+          "total_precision_at_k": 1.4,
+          "total_answer_quality": 1.4285439947663816,
+          "errors": [
+            {
+              "query_id": 38001,
+              "error": "upstream connect error or disconnect/reset before headers. reset reason: remote connection failure, transport failure reason: TLS_error:|268435581:SSL routines:OPENSSL_internal:CERTIFICATE_VERIFY_FAILED:TLS_error_end"
+            },
+            {
+              "query_id": 33140,
+              "error": "upstream connect error or disconnect/reset before headers. reset reason: remote connection failure, transport failure reason: TLS_error:|268435581:SSL routines:OPENSSL_internal:CERTIFICATE_VERIFY_FAILED:TLS_error_end"
+            }
+          ],
+          "avg_precision_at_k": 0.175,
+          "avg_answer_quality": 0.1785679993457977
+        },
+        "ambiguous": {
+          "queries_tested": 10,
+          "queries_succeeded": 10,
+          "queries_failed": 0,
+          "total_precision_at_k": 0.4,
+          "total_answer_quality": 1.879554297268398,
+          "errors": [],
+          "avg_precision_at_k": 0.04,
+          "avg_answer_quality": 0.18795542972683982
+        },
+        "context_dependent": {
+          "queries_tested": 10,
+          "queries_succeeded": 10,
+          "queries_failed": 0,
+          "total_precision_at_k": 0.6000000000000001,
+          "total_answer_quality": 2.490970821905335,
+          "errors": [],
+          "avg_precision_at_k": 0.06000000000000001,
+          "avg_answer_quality": 0.24909708219053348
+        },
+        "adversarial": {
+          "queries_tested": 10,
+          "queries_succeeded": 10,
+          "queries_failed": 0,
+          "total_precision_at_k": 1.7999999999999998,
+          "total_answer_quality": 4.537521328048709,
+          "errors": [],
+          "avg_precision_at_k": 0.18,
+          "avg_answer_quality": 0.4537521328048709
+        }
+      }
+    }
+  }
+}
