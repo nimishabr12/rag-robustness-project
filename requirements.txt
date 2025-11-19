@@ -11,3 +11,5 @@ tqdm
 streamlit
 matplotlib
 seaborn
+google-generativeai
+anthropic
