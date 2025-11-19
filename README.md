@@ -629,7 +629,7 @@ If you use this work in your research, please cite:
 ```bibtex
 @software{rag_robustness_2025,
   title = {RAG Robustness: Systematic Evaluation of Retrieval-Augmented Generation Under Noise},
-  author = {Your Name},
+  author = {Nimish Abraham},
   year = {2025},
   url = {https://github.com/nimishabr12/rag-robustness-project}
 }
